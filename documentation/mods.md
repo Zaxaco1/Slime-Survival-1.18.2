@@ -1,0 +1,262 @@
+## Clientside
+
+- 3D Skin Layers
+- Advancement Info
+- Animatica
+	- Parity for animated textures supported by OptiFine
+- Armor Points++
+- AuthMe
+- Beenfoo
+- Better Biome Blend
+- Better F3
+- Better FPS - Render Distance
+	- Changes chunks to be rendered in a 3D cylinder to improve clientside performance
+- Better Mount HUD
+- Better Third Person
+- Blanket Client Tweaks
+- Blur
+- Better Recipe Book [brb]
+- Better Sodium Video Settings Button [bsvsb]
+- Capes
+- Charmonium
+- CIT Resewn
+- Clear Despawn
+- Click Through
+	- Allows you to click through signs to access chests behind them
+- Coloured Tooltips
+- Controlling
+- Cool Eytra
+	- Makes the camera roll when flying with the elytra
+- Dark Loading Screen
+- Dashloader
+	- Precaches game resources so that subsequent game launches are much faster
+- Don't Clear Chat History
+- Disable Custom Worlds Advice
+- Dynamic FPS
+	- Reduces FPS to 1 when game is not in focus
+- Eating Animation
+- Enchantment Descriptions
+- Enhanced Attack Indicator
+- Enhanced Block Entities
+- Entity Texture Features
+- Entity Culling
+- Equipment Compare
+- Highlighter
+	- Highlights newly picked up items
+- Indium
+- Iris
+- Item Model Fix
+- Lamb Dynamic Lights
+- Language Reload
+- Lava Clear View
+- Lazy DFU
+- Legendary Tooltips
+- Light Overlay
+- Logical Zoom
+- Mod Menu
+- More Chat History
+- Mouse Tweaks
+- Mouse Wheelie
+- Not Enough Animations
+- Pickup Notifier
+- Pling
+- Puzzle
+- Reese's Sodium Options
+- Shulker Box Tooltip
+- Simple RPC
+- Slight GUI Modifications
+- Smoke Suppression
+- Smoothboot
+- Sodium Extra
+- Sodium Fabric
+- Sodium Shadowy Path Blocks
+- Visuality
+- Wavey Capes
+- What's That Slot
+- WorldEdit CUI
+
+
+
+## Serverside
+
+- Additional Structures
+- Advancement Debug
+	- Fixes a crash related to having too many advancements
+- Alternate Current
+	- Optimizes redstone
+- Attribute Fix
+- Better Impaling
+- Better Than Mending
+- Bow Infinity Fix
+- Clickable Advancements
+- Clumps
+- Connectivity
+- Convenient Mob Griefing
+- Debugify
+- Savage Dragon Fight
+- Fabric Experience Bug Fix
+- Farsighted Mobs
+- Feature NBT Deadlock Be Gone
+- Giant Spawn
+- Inv View
+- Klee Slabs
+- Krypton
+- Ksysxis
+	- Skips chunk generation when initially opening or creating a world
+- Max Health Fix
+- Monsters In The Closet
+- Mo' Structures
+- Multi World Borders
+- Nether Portal Fix
+- No Trample
+- Repurposed Structures
+- Smooth Chunk
+- Some Forge Patches Ported
+	- Fixes Nether and End deleting upon deleting a custom dimension
+- Stoneholm
+- Textile Backup
+- Too Fast
+- Towers of the Wild Additions
+- Villager Names
+- [VMP] Very Many Players
+- WorldEdit
+- Yung's Better Dungeons
+- Yung's Better Mineshafts
+- Yung's Better Strongholds
+- Yung's Bridges
+- Yung's Extras
+
+
+
+## Serverside (Optionally Required On Clientside)
+
+- Appleskin
+- Dual Riders
+- Can I Mine This Block
+- Carpet Fixes
+- Fabric Carpet
+- Ferrite Core
+	- Optimizes RAM usage
+- Hwyla Addon Horse Info
+- Lithium
+- Megane
+- No Telemetry
+- Not Enough Crashes
+- Paintings
+- Quick Shulker
+- Roughly Enough Resources
+- Roughly Enough Items
+- Starlight
+- TieFix
+- [WTHIT] What The Hell Is That
+- Xaero's Minimap Fairplay Edition
+- Xaero's Worldmap
+- Your Reputation
+
+
+
+## Serverside (Required On Clientside)
+
+- AdventureZ
+- Artifacts
+- Asbestos Removal
+- Backslot
+- Backslot Addon
+- Better End
+- Better Nether
+- Better Animals Plus
+- Better Bad Omen
+- Better Compatability Checker
+- Bewitchment
+- Bewitchment Plus
+- Biome Makeover
+- Bosses of Mass Destruction [BOMD]
+- ComputerCraft Restitched
+- Charm
+- Comforts
+- Custom Player Models
+- CraftTweaker
+- Creeper Overhaul
+- Creeper Spores
+- Damage Tilt
+- Dark Utilities
+- Earthbounds
+- Easy Magic
+- Explorer's Compass
+- Extra Alchemy
+- Fabric Seasons
+- Farmer's Delight
+- FTB Chunks
+- Go Fish
+- Guard Villagers
+- Macaws Bridges BYG
+- Macaws Roofs BYG
+- MCW - Bridges
+- MCW - Doors
+- MCW - Fences
+- MCW - Lights
+- MCW - Roofs
+- MCW - Trapdoors
+- MCW - Windows
+- Mega Parrot
+- MmmMmmMmmMmm
+	- Adds a target dummy
+- Mob Scarecrow
+- More Villagers
+- Nature's Compass
+- Oh The Biomes You'll Go
+- On Soul Fire
+- Origins
+- Pehkui
+- Pigpen
+- Puzzle Lib
+- Revamped Phantoms
+- Runelic
+- Slime Survival
+	- My own mod designed to make your life hell
+- Terrarian Slimes
+- The Graveyard
+- The Graveyard Biomes
+- Things
+- Trinket of Undying
+- Trinkets
+- Twigs
+- Visual Workbench
+- Whisper Woods
+- Wither Totems
+- Wraith Waystones
+- XL Packets
+
+
+
+## Library
+
+- Architectury
+- ARRP
+- Bad Packets
+- Balm
+- BCLib
+- Bookshelf
+- Cardinal Components
+- Cloth API
+- Cloth Config
+- Collective
+- Creative Core
+- Fabric API
+- Fabric Language Kotlin
+- Faux Custom Entity Data
+- Flytre Lib
+- Forge Config API Port
+- FTB Library
+- FTB Ranks
+- FTB Teams
+- Gecko Lib
+- Iceberg
+- Ingredient Extension API
+- Jam Lib
+- Library Ferret
+- Midnight Lib
+- Owo Lib
+- Patchouli
+- TerraBlender
+- Yung's API
