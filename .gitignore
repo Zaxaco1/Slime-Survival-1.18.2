@@ -1,6 +1,9 @@
 /*
 !/.gitignore
+
 !/config
+/config/worldedit/.archive-unpack/**
+
 !/documentation
 !/paintings
 !/profileImage
