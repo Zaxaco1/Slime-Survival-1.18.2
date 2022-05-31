@@ -1,11 +1,17 @@
 /*
-!/.gitignore
 
 !/config
-/config/worldedit/.archive-unpack/**
+
+/config/worldedit/.archive-unpack
+
+
+
+
+
 
 !/documentation
 !/paintings
 !/profileImage
 !/scripts
 !/simple-rpc
+!/.gitignore
