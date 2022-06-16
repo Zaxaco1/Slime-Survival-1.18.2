@@ -23,6 +23,10 @@
 		// This will impact performance though.
 		// default: false
 		better-fast-dragging: false
+		// Sets the interval in milliseconds for singleplayer and local multiplayer.
+		// default: 1
+		// 	Must be greater or equal to 1
+		integrated-interaction-rate: 1
 	}
 	scrolling: {
 		// Enables scrolling of stacks

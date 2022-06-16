@@ -1,6 +1,6 @@
 {
 	// Activation key
-	"keybinding": "key.keyboard.unknown",
+	"keybinding": "key.keyboard.grave.accent",
 	// Right Clicking with shulker in hand opens it
 	"rightClickToOpen": true,
 	// Hitting the keybind with shulker in hand opens it

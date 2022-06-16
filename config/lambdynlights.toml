@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "off"
+mode = "fancy"
 
 # Light sources settings.
 [light_sources]
@@ -467,6 +467,66 @@ mode = "off"
 			[light_sources.settings.entities.terraform]
 				boat = true
 
+			[light_sources.settings.entities.tinyskeletons]
+				baby_skeleton = true
+				baby_wither_skeleton = true
+				baby_stray = true
+
+			[light_sources.settings.entities.mythicmounts]
+				dragon = true
+				geckotoalizard = true
+				firebird = true
+				acencia = true
+				direwolf = true
+				courierbird = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				mauler = true
+				glare = true
+				moobloom = true
+
+			[light_sources.settings.entities.arcanus]
+				magic_missile = true
+				arcane_barrier = true
+
+			[light_sources.settings.entities.creatures_of_the_snow]
+				narwhal = true
+				beluga = true
+				snow_trover = true
+				penguin = true
+
+			[light_sources.settings.entities.fantasyorigins]
+				goblin = true
+				triton_trident = true
+				spear = true
+
+			[light_sources.settings.entities.dragonloot]
+				dragon_trident = true
+
+			[light_sources.settings.entities.xtraarrows]
+				diamond_explosive_arrow = true
+				padded_arrow = true
+				iron_explosive_arrow = true
+				iron_tracking_arrow = true
+				iron_arrow = true
+				flint_soul_torch_arrow = true
+				flint_explosive_arrow = true
+				diamond_arrow = true
+
+			[light_sources.settings.entities.pickyourpoison]
+				poison_dart = true
+				poison_dart_frog = true
+
+			[light_sources.settings.entities.besmirchment]
+				werepyre = true
+				final_broom = true
+				witchy_dye = true
+				infectious_spit = true
+				beelzebub = true
+
+			[light_sources.settings.entities.requiem]
+				released_soul = true
+
 		[light_sources.settings.block_entities]
 
 			[light_sources.settings.block_entities.minecraft]
@@ -648,4 +708,28 @@ mode = "off"
 				ghost_light_tile = true
 				hirschgeist_skull = true
 				hand_of_fate = true
+
+			[light_sources.settings.block_entities.besmirchment]
+				phylactery = true
+
+			[light_sources.settings.block_entities.ftbquests]
+				barrier = true
+				stage_barrier = true
+				detector = true
+
+			[light_sources.settings.block_entities.hplus]
+				stone_hopper = true
+
+			[light_sources.settings.block_entities.ironchests]
+				copper_chest = true
+				diamond_chest = true
+				dirt_chest = true
+				iron_chest = true
+				obsidian_chest = true
+				netherite_chest = true
+				gold_chest = true
+				crystal_chest = true
+
+			[light_sources.settings.block_entities.questsadditions]
+				lootcrate_block = true
 

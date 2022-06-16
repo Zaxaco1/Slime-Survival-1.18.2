@@ -1,11 +1,20 @@
 {
 	"basics": {
 		"favorites": [
-			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
 			"{data:{Count:1b,id:\"seasons:season_calendar\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"things:hardening_catalyst\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{Count:1b,id:\"computercraft:turtle_normal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"computercraft:computer_normal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{Count:1b,id:\"computercraft:computer_normal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:book\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"things:ender_pouch\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{Count:1b,id:\"minecraft:gunpowder\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		],
+		"hiddenFavorites": [
+			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
+			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}"
 		],
 		// Declares whether cheating mode is on.
 		"cheating": true,
@@ -53,7 +62,7 @@
 			}
 		},
 		// Declares whether REI is visible.
-		"overlayVisible": true,
+		"overlayVisible": false,
 		"cheatingStyle": "GRAB",
 		"motion": {
 			"favoritesAnimation": true
@@ -156,7 +165,7 @@
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
+		"disableRecipeBook": true,
 		// Declares whether mob effects should be on the left side instead of the right side.
 		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.

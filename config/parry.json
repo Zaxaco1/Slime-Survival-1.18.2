@@ -1,0 +1,35 @@
+{
+	"default_multiplier": 0.0,
+	"consume_animation": true,
+	"prioritize_shield": true,
+	"overrides": [
+		{
+			"item": "minecraft:wooden_sword",
+			"multiplier": 0.1
+		},
+		{
+			"item": "minecraft:stone_sword",
+			"multiplier": 0.25
+		},
+		{
+			"item": "minecraft:golden_sword",
+			"multiplier": 1.0
+		},
+		{
+			"item": "minecraft:iron_sword",
+			"multiplier": 0.35
+		},
+		{
+			"item": "minecraft:diamond_sword",
+			"multiplier": 0.45
+		},
+		{
+			"item": "minecraft:netherite_sword",
+			"multiplier": 0.5
+		},
+		{
+			"item": "dragonloot:dragon_sword",
+			"multiplier": 0.75
+		}
+	]
+}

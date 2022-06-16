@@ -1,6 +1,6 @@
 {
   "weaponCoolDownImportance": "MIDDLE",
-  "showBlockBreaking": true,
+  "showBlockBreaking": false,
   "showRangeWeaponDraw": true,
   "showItemCooldowns": true,
   "showFoodAndPotions": true,
