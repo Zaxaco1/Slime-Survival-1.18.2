@@ -1,0 +1,167 @@
+{
+	"itemGroup.slimesurvival.misc": "Slime Survival Misc",
+	"itemGroup.slimesurvival.blocks": "Slime Survival Blocks",
+	"itemGroup.slimesurvival.materials": "Slime Survival Materials",
+	"itemGroup.slimesurvival.weapons": "Slime Survival Weapons",
+	"itemGroup.slimesurvival.equipment": "Slime Survival Equipment",
+
+
+
+
+
+
+
+
+	"item.slimesurvival.tooltip.show_details": "§7Hold §6Shift§7 for Details",
+	"item.slimesurvival.tooltip.show_how_to_obtain": "§7Hold §6Ctrl§7 to see How To Obtain",
+	"item.slimesurvival.tooltip.show_lore": "§7Hold §6Alt§7 to see Lore",
+	"item.slimesurvival.tooltip.show_credits": "§7Hold §6Ctrl + Alt§7 to see Credits",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	"block.slimesurvival.gmod_block": "GMod Block",
+	"block.slimesurvival.solid_black": "Solid Black",
+	"block.slimesurvival.solid_blue": "Solid Blue",
+	"block.slimesurvival.solid_green": "Solid Green",
+	"block.slimesurvival.solid_magenta": "Solid Magenta",
+	"block.slimesurvival.solid_red": "Solid Red",
+	"block.slimesurvival.solid_white": "Solid White",
+	"block.slimesurvival.solid_yellow": "Solid Yellow",
+
+
+
+
+
+
+
+	"item.slimesurvival.icon": "",
+
+	"item.slimesurvival.lexicon": "Slime Survival Lexicon",
+
+	"item.slimesurvival.experience_crystal": "Experience Crystal",
+	"item.slimesurvival.experience_crystal.tooltip": "§bStored Experience: %s / 3000",
+	"item.slimesurvival.experience_crystal.details": "§7This crystal is able to hold a large supply of experience.\n\n§e• Insert experience by right clicking.\n§e• Extract experience by shift right clicking.\n§e• Transfer rate is 10 while in mainhand, 100 while in offhand.",
+	"item.slimesurvival.experience_crystal.credits": "§7• Texture was made Crash404",
+
+
+
+
+
+
+
+
+
+
+
+
+	"item.slimesurvival.polar_bear_fur": "Polar Bear Fur",
+	"item.slimesurvival.polar_bear_fur.tooltip": "§7• Can be found in medium quantities on polar bears",
+	"item.slimesurvival.polar_bear_fur.tooltip2": "§7• Essential material for winter clothing and medical dressings",
+
+
+	"item.slimesurvival.axolotl_gills": "§dAxolotl Gills",
+	"item.slimesurvival.axolotl_gills.tooltip": "§7• Rare drop from axolotls and \"fish\" fishing",
+	"item.slimesurvival.axolotl_gills.tooltip2": "§7• Potent regenerative abilities that can be used in armor and medicine",
+
+
+	"item.slimesurvival.mystite_ingot": "§dMystite Ingot",
+	"item.slimesurvival.mystite_ingot.details": "§7Highly durable and strong, this metal won't\n§7falter unless submerged in water.",
+
+
+	"item.slimesurvival.mystite_tool_rod": "§3Mystite Tool Rod",
+	"item.slimesurvival.mystite_tool_rod.detail[0]": "§7A reinforced stick used for the crafting of stronger tools and weapons.",
+
+
+	"item.slimesurvival.mystite_ore": "§3Mystite Ore",
+	"item.slimesurvival.mystite_ore.details": "§7Contains slight traces of redstone\n§7and an unknown metal.\n\n§7Resistant to high temperatures; can\n§7only be smelted in a blast furnace.",
+	"item.slimesurvival.mystite_ore.how_to_obtain": "§7Rarely found in deepslate redstone ore\n§7when using a §lMystite Pickaxe§r§7.",
+
+
+	"item.slimesurvival.enderium_alloy": "§5Enderium Alloy",
+	"item.slimesurvival.enderium_alloy.details": "§7Exerts magical properties far beyond\n§7those of ordinary metallic substances\n\n§7May also have some applications as an ingredient\n§7for mage armor, tools, and weapons.",
+
+
+
+
+
+	"item.slimesurvival.rift_battleaxe": "§4Rift Battleaxe",
+	"item.slimesurvival.rift_battleaxe.details": "§7A heavy weapon that swings slow but hits §lreally§r§7 hard.\n\n§7Right clicking will push away nearby mobs and players at the\n§7cost of a short movement speed penalty afterwards.",
+
+
+
+
+	"item.slimesurvival.duskbreaker": "Duskbreaker",
+
+
+
+	"item.slimesurvival.ban_hammer": "§b\"Ban\" Hammer",
+	"item.slimesurvival.ban_hammer.tooltip": "§4Admin-Only Weapon",
+	"item.slimesurvival.ban_hammer.details": "§7It unleashes an ungodly amount of energy at whomever it hits.\n§7It does §lnot§r§7 ban players.",
+
+
+
+
+
+
+
+
+	"item.slimesurvival.mystite_helmet": "§3Mystite Helmet",
+	"item.slimesurvival.mystite_chestplate": "§3Mystite Chestplate",
+	"item.slimesurvival.mystite_leggings": "§3Mystite Leggings",
+	"item.slimesurvival.mystite_boots": "§3Mystite Boots",
+
+	"item.slimesurvival.netherite_shield": "Netherite Shield",
+	"item.slimesurvival.dragon_shield": "Dragon Scale Shield",
+
+
+
+
+
+
+	"item.slimesurvival.winter_coat": "Winter Coat",
+	"item.slimesurvival.winter_coat.details": "§7Made from polar bear fur, fox hide, and woven thread.\n§7It also provides a moderate amount of insulation",
+
+
+	"item.slimesurvival.utility_belt": "Utility Belt",
+	"item.slimesurvival.utility_belt.details": "§7Made from leather and gold, the utility\n§7belt allows for an extra trinket on your belt.",
+
+
+	"item.slimesurvival.countercurse_mantra": "Countercurse Mantra",
+	"item.slimesurvival.countercurse_mantra.details": "§7Protects against Rifting.",
+
+
+	"item.slimesurvival.shaped_glass": "§bShaped Glass",
+	"item.slimesurvival.shaped_glass.details": "§7§oHigh risk, high reward.",
+
+
+	"item.slimesurvival.bloodstained_glass": "§4Bloodstained Glass",
+	"item.slimesurvival.bloodstained_glass.details": "§7§oMedium risk, medium reward\n\n§cImplements partial life steal, recovering 25% of damage dealt as\n§chealth regenerated to its user.",
+
+
+	"item.slimesurvival.reactor_core": "§5Reactor Core",
+	"item.slimesurvival.reactor_core.tooltip": "§e§oJesse, I have cancer\n§",
+	"item.slimesurvival.reactor_core.details": "§7Emits short doses of radiation that augment cell count rapidly.\n\n§7The short doses of radiation may cause fatigue and, in rare cases, cancer.\n§§",
+
+
+
+	"": ""
+}

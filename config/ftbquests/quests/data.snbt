@@ -12,7 +12,7 @@
 		monster: 600
 		boss: 0
 	}
-	disable_gui: true
+	disable_gui: false
 	grid_scale: 0.5d
 	pause_game: false
 	lock_message: ""

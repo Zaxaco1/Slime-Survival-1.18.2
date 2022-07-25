@@ -1,0 +1,13 @@
+{
+	"powers": [
+	],
+	"icon": {
+		"item": "minecraft:player_head",
+		"tag": "{SkullOwner:\"MHF_Spider\"}"
+	},
+	"order": 6,
+	"impact": 0,
+	
+	"name": "Arachnid",
+	"description": "You're an §mAustralian§r spider."
+}

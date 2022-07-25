@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:zombie_head"
+		},
+		"title": {
+			"translate": "advancement.slimesurvival.ghoul/root.title"
+		},
+		"frame": "challenge",
+		"background": "minecraft:textures/block/coarse_dirt.png",
+		"description": {
+			"translate": "advancement.slimesurvival.ghoul/root.description"
+		},
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"acquired": {
+			"trigger": "origins:chose_origin",
+			"conditions": {
+				"origin": "slimesurvival:ghoul"
+			}
+		}
+	}
+}

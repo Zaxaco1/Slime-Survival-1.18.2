@@ -1,0 +1,72 @@
+{
+	"Gameplay": {
+		// Players can pick Campfire Logs by right-clicking them with 
+		"campfireLogsArePickable": false,
+		// Plays a sound effect when players pick a Campfire Log.
+		"playSoundWhenCampfireLogGetsPicked": true,
+		// Deletes Campfire and Soul Campfire Blocks' recipes, so players will need to build them instead.
+		"deleteCampfireBlockRecipes": true,
+		// Campfire Logs Block will drop its item form depending on how much log it has.
+		"enableCampfireLogDrops": true,
+		// Players can gather Campfire Logs by left-clicking log or log-like them with an Axe while crouching.
+		"enableLogChopping": true,
+		// Players can turn Campfire Logs into 6 Sticks by left-clicking onto them with an Axe while crouching.
+		"enableCampfireLogChopping": true,
+		// Players can make a Campfire Log using 6 Sticks.
+		"enableSticksToLogRecipes": false,
+		// Players can use any log on a Stone Cutter to craft 2 Campfire Logs
+		"enableLogToCampfireLogRecipes": false,
+		// Shows a text under the item's name explaining the use of the Campfire Log.
+		"enableItemTooltip": true,
+		// The tooltip itself. Leave empty/null if you want it to be default.
+		"tooltip": "",
+		// The color of the tooltip text.
+		"tooltipColor": "GRAY",
+		// The amount of light Campfire Log gives off to its surroundings.
+		"campfireLogLuminance": 0
+	},
+	"CampfireBlock": {
+		// Minecraft - Orange/Yellow Smoked Campfire
+		"enableBuildableCampfire": true,
+		// Should your Campfire be lit when you build it?
+		"campfireIsLitWhenBuild": false,
+		// Plays a sound effect when you right-click a finished Campfire Template with a coal or charcoal.
+		"playTuffSound": true,
+		// The amount of Coal/Charcoal you will need to build a Campfire.
+		"howMuchCoalBuildingACampfireCosts": 1
+	},
+	"SoulCampfireBlock": {
+		// Minecraft - Blue Smoked Campfire
+		"enableBuildableSoulCampfire": true,
+		// Should your Soul Campfire be lit when you build it?
+		"soulCampfireIsLitWhenBuild": false,
+		// Plays a sound effect when you right-click a finished Campfire Template with Soul Sand.
+		"playSoulSandSound": true,
+		// The amount of Soul Sand you will need to build a Soul Campfire.
+		"howMuchSoulSandBuildingASoulCampfireCosts": 1
+	},
+	"ModdedCampfires": {
+		"BYGCampfires": {
+			"BoricCampfire": {
+				// Oh The Biomes You'll Go - Green Smoked Campfire
+				"enableBuildableBoricCampfire": false,
+				// Should your Boric Campfire be lit when you build it?
+				"boricCampfireIsLitWhenBuild": false,
+				// Plays a sound effect when you right-click a finished Campfire Template with Brim Powder.
+				"playSandSound": true,
+				// The amount of Brim Powder you will need to build a Boric Campfire.
+				"howMuchBrimPowderBuildingABoricCampfireCosts": 1
+			},
+			"CrypticCampfire": {
+				// Oh The Biomes You'll Go - Green Smoked Campfire
+				"enableBuildableCrypticCampfire": false,
+				// Should your Boric Campfire be lit when you build it?
+				"crypticCampfireIsLitWhenBuild": false,
+				// Plays a sound effect when you right-click a finished Campfire Template with Brim Powder.
+				"playTuffSound": true,
+				// The amount of Brim Powder you will need to build a Boric Campfire.
+				"howMuchCrypticMagmaBlockBuildingACrypticCampfireCosts": 1
+			}
+		}
+	}
+}

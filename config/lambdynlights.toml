@@ -527,6 +527,32 @@ mode = "fancy"
 			[light_sources.settings.entities.requiem]
 				released_soul = true
 
+			[light_sources.settings.entities.mobscarecrow]
+				cat_plushie = true
+				pillager_plushie = true
+				steve_plushie = true
+				villager_plushie = true
+				wolf_plushie = true
+				zombie_plushie = true
+				axolotl_plushie = true
+				chicken_plushie = true
+				copper_golem_plushie = true
+				default_scarecrow = true
+				gold_pig_plushie = true
+				pigeon_plushie = true
+				piglin_plushie = true
+				rabbit_plushie = true
+				snow_golem_plushie = true
+				zombified_piglin_plushie = true
+				iron_golem_plushie = true
+
+			[light_sources.settings.entities.impaled]
+				pitchfork = true
+				hellfork = true
+				soulfork = true
+				elder_trident = true
+				atlan = true
+
 		[light_sources.settings.block_entities]
 
 			[light_sources.settings.block_entities.minecraft]
@@ -732,4 +758,7 @@ mode = "fancy"
 
 			[light_sources.settings.block_entities.questsadditions]
 				lootcrate_block = true
+
+			[light_sources.settings.block_entities.alloy_forgery]
+				forge_controller = true
 

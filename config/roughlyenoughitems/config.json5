@@ -1,21 +1,10 @@
 {
 	"basics": {
 		"favorites": [
-			"{data:{Count:1b,id:\"seasons:season_calendar\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"things:hardening_catalyst\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"computercraft:turtle_normal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"computercraft:computer_normal\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:book\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"things:ender_pouch\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{Count:1b,id:\"minecraft:gunpowder\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}"
 		],
-		"hiddenFavorites": [
-			"{mode:\"SURVIVAL\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"CREATIVE\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"ADVENTURE\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"SPECTATOR\",type:\"roughlyenoughitems:gamemode\"}",
-			"{mode:\"NOT_SET\",type:\"roughlyenoughitems:gamemode\"}"
-		],
+		"hiddenFavorites": [],
+		"displayHistory": [],
 		// Declares whether cheating mode is on.
 		"cheating": true,
 		"favoritesEnabled": true,
@@ -62,7 +51,7 @@
 			}
 		},
 		// Declares whether REI is visible.
-		"overlayVisible": false,
+		"overlayVisible": true,
 		"cheatingStyle": "GRAB",
 		"motion": {
 			"favoritesAnimation": true
@@ -72,6 +61,7 @@
 		"filtering": {
 			"shouldFilterDisplays": true,
 			"filteringRules": [
+				"{id:\"roughlyenoughitems:search\",rule:{filter:\"facade\",show:0b}}",
 				"{id:\"roughlyenoughitems:manual\",rule:{}}"
 			],
 			"filteredStacks": []
@@ -135,7 +125,7 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": false
+			"cachingFastEntryRendering": true
 		}
 	},
 	"appearance": {
