@@ -1,0 +1,18 @@
+{
+	"version": 2,
+	"basePower": 0,
+	"memberPower": 100,
+	"claimWeight": 5,
+	"maxFactionSize": -1,
+	"safeTicksToWarp": 600,
+	"powerDeathPenalty": 5,
+	"ticksForPower": 6000,
+	"ticksForPowerReward": 2,
+	"requiredBypassLevel": 2,
+	"home": "CLAIMS",
+	"radarEnabled": true,
+	"friendlyFireEnabled": true,
+	"chatModificationEnabled": true,
+	"factionSafe": "ENDERCHEST",
+	"factionSafeDouble": true
+}

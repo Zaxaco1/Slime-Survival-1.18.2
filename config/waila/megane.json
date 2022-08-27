@@ -38,7 +38,9 @@
       "megane:default": 855385,
       "minecraft:water": 8406573,
       "fabricaeexnihilo:witchwater": 855385,
-      "fabricaeexnihilo:milk": 855385
+      "fabricaeexnihilo:milk": 855385,
+      "fabricaeexnihilo:brine": 855385,
+      "minecraft:lava": 13916690
     },
     "blacklist": []
   },

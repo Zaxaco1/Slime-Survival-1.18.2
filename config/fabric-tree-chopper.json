@@ -1,6 +1,6 @@
 {
 	"fastLeafDecay": true,
-	"fullChopDurabilityUsage": "BREAK_AFTER_CHOP",
+	"fullChopDurabilityUsage": "BREAK_MID_CHOP",
 	"sneakBehavior": "ENABLE_CHOPPING",
 	"requireLeavesToChop": true,
 	"treeChopMode": "FULL_CHOP",
@@ -14,6 +14,9 @@
 		"minecraft:iron_axe",
 		"minecraft:diamond_axe",
 		"minecraft:netherite_axe",
+		"betternether:cincinnasite_axe",
+		"betternether:cincinnasite_axe_diamond",
+		"betternether:nether_ruby_axe",
 		"betterend:aeternium_axe",
 		"betterend:thallasium_axe",
 		"betterend:terminite_axe",
@@ -21,10 +24,4 @@
 		"slimesurvival:rift_battleaxe"
 	],
 	"variableBreakingTime": true
-}d:terminite_axe",
-		"byg:pendorite_axe",
-		"byg:pendorite_battleaxe",
-		"dragonloot:dragon_axe"
-	],
-	"variableBreakingTime": false
 }

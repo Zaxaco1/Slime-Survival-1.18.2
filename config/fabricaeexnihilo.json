@@ -75,11 +75,7 @@
           "duration": 210,
           "amplifier": 0
         },
-        "wither": {
-          "duration": 210,
-          "amplifier": 0
-        },
-        "weakness": {
+        "hunger": {
           "duration": 210,
           "amplifier": 2
         },
@@ -87,9 +83,13 @@
           "duration": 210,
           "amplifier": 0
         },
-        "hunger": {
+        "weakness": {
           "duration": 210,
           "amplifier": 2
+        },
+        "wither": {
+          "duration": 210,
+          "amplifier": 0
         }
       }
     }

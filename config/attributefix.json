@@ -1,5 +1,16 @@
 {
   "attributes": {
+    "slimesurvival:mana_regen_amount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -22,17 +33,6 @@
         "value": 10000000
       }
     },
-    "arcanus:mana_regen": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "reach-entity-attributes:reach": {
       "enabled": false,
       "min": {
@@ -44,14 +44,14 @@
         "value": 10000000
       }
     },
-    "requiem:soul_offense": {
+    "slimesurvival:mana_regen_interval": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": 1,
+        "value": 1
       },
       "max": {
-        "default": 1024,
+        "default": 2147483647,
         "value": 10000000
       }
     },
@@ -66,8 +66,8 @@
         "value": 10000000
       }
     },
-    "arcanus:casting_multiplier": {
-      "enabled": false,
+    "minecraft:generic.attack_speed": {
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
@@ -77,14 +77,14 @@
         "value": 10000000
       }
     },
-    "minecraft:generic.attack_speed": {
-      "enabled": true,
+    "slimesurvival:dodge_chance": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
+        "default": 1,
         "value": 10000000
       }
     },
@@ -110,6 +110,17 @@
         "value": 10000000
       }
     },
+    "slimesurvival:mana_cap": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 10000000
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -132,47 +143,14 @@
         "value": 10000000
       }
     },
-    "creeperoverhaul:reach_distance": {
+    "slimesurvival:instability": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "porting_lib:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "creeperoverhaul:swim_speed": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
-    "arcanus:burnout_regen": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
+        "default": 2147483647,
         "value": 10000000
       }
     },
@@ -184,17 +162,6 @@
       },
       "max": {
         "default": 1024,
-        "value": 10000000
-      }
-    },
-    "porting_lib:entity_gravity": {
-      "enabled": false,
-      "min": {
-        "default": -8,
-        "value": -8
-      },
-      "max": {
-        "default": 8,
         "value": 10000000
       }
     },
@@ -231,17 +198,6 @@
         "value": 10000000
       }
     },
-    "botania:pixie_spawn_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 10000000
-      }
-    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -253,17 +209,6 @@
         "value": 10000000
       }
     },
-    "arcanus:mana_lock": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 10000000
-      }
-    },
     "additionalentityattributes:lava_speed": {
       "enabled": false,
       "min": {
@@ -272,17 +217,6 @@
       },
       "max": {
         "default": 1,
-        "value": 10000000
-      }
-    },
-    "requiem:soul_defense": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
         "value": 10000000
       }
     },

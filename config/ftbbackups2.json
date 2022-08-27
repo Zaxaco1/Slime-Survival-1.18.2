@@ -2,13 +2,13 @@
 	// Allow the creation of backups automatically
 	"enabled": true,
 	// Permission level to use the /backup command
-	"command_permission_level": 3,
+	"command_permission_level": 2,
 	// Only send backup status to server ops
 	"notify_op_only": true,
 	// Don't send backup status at all
 	"do_not_notify": false,
 	// Maximum number of backups to keep
-	"max_backups": 5,
+	"max_backups": 16,
 	/* This is done with Javas implementation of cron, More info here 
 	    (https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm)
 	*/
