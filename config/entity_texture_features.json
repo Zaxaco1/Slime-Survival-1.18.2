@@ -1,6 +1,7 @@
 {
   "allowIllegalTexturePaths": true,
   "enableCustomTextures": true,
+  "enableCustomBlockEntities": true,
   "textureUpdateFrequency_V2": "Fast",
   "restrictUpdateProperties": true,
   "restrictBiome": true,
@@ -10,11 +11,10 @@
   "restrictDayTime": true,
   "restrictMoonPhase": true,
   "enableEmissiveTextures": true,
+  "enableEmissiveBlockEntities": true,
   "fullBrightEmissives": false,
   "specialEmissiveShield": true,
   "alwaysCheckVanillaEmissiveSuffix": true,
-  "doShadersEmissiveFix": false,
-  "enchantedPotionEffects": "NONE",
   "skinFeaturesEnabled": true,
   "skinFeaturesEnableTransparency": true,
   "skinFeaturesEnableFullTransparency": false,
@@ -27,5 +27,7 @@
   "enableTridents": true,
   "enableElytra": true,
   "elytraThicknessFix": true,
-  "debugLoggingMode": "None"
+  "advanced_IncreaseCacheSizeModifier": 1.0,
+  "debugLoggingMode": "None",
+  "temporary_fixIrisPBR": false
 }
