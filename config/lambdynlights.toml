@@ -559,6 +559,9 @@ mode = "fancy"
 			[light_sources.settings.entities.origins]
 				enderian_pearl = true
 
+			[light_sources.settings.entities.create]
+				potato_projectile = true
+
 			[light_sources.settings.entities.artifacts]
 				mimic = true
 

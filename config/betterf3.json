@@ -178,7 +178,7 @@
 		}
 	],
 	"general": {
-		"disable_mod": false,
+		"disable_mod": true,
 		"space_modules": true,
 		"shadow_text": true,
 		"animations": false,

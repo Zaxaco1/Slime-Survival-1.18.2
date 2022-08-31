@@ -1,17 +1,30 @@
 {
 	"general": {
-		/*  Show toughness as overlay over armor or it's own bar
+		/*  Sets the texture sheet used for rendering
+		    See https://github.com/Cheos137/ArmorpointsPlusplus/wiki/Custom-Texture-Sheets for more information
+		    Builtin: default [default: default]
+		*/
+		"textureSheet": "default",
+		/*  Show resistance as border around armor
 		    Available: true, false [default: true]
 		*/
-		"enableToughness": true,
+		"showResistance": true,
+		/*  Show protection as overlay over armor
+		    Available: true, false [default: true]
+		*/
+		"showProtection": true,
+		/*  Frostbite heart display style (full = vanilla)
+		    Available: FULL, ICON, OVERLAY [default: ICON]
+		*/
+		"frostbiteStyle": "ICON",
+		/*  Show toughness value text next to toughness bar
+		    Available: true, false [default: true]
+		*/
+		"showToughnessValue": true,
 		/*  Show armor value text next to armor bar
 		    Available: true, false [default: true]
 		*/
 		"showArmorValue": true,
-		/*  Enable custom armor bar
-		    Available: true, false [default: true]
-		*/
-		"enableArmorBar": true,
 		/*  Show toughness as it's own bar
 		    Available: true, false [default: false]
 		*/
@@ -21,55 +34,42 @@
 		    Only effective if useToughnessBar is set to true!
 		*/
 		"toughnessSide": "LEFT",
-		/*  Show protection as overlay over armor
+		/*  Show toughness as overlay over armor or it's own bar
 		    Available: true, false [default: true]
 		*/
-		"showProtection": true,
+		"enableToughness": true,
 		/*  Show toughness bar when toughness is zero
 		    Available: true, false [default: false]
 		*/
 		"showToughnessWhenZero": false,
-		/*  Sets the texture sheet used for rendering
-		    See https://github.com/Cheos137/ArmorpointsPlusplus/wiki/Custom-Texture-Sheets for more information
-		    Builtin: default [default: default]
-		*/
-		"textureSheet": "default",
-		/*  Draw shadows for all rendered texts
-		    Available: true, false [default: true]
-		*/
-		"textShadow": true,
-		/*  Show resistance as border around armor
-		    Available: true, false [default: true]
-		*/
-		"showResistance": true,
 		/*  Suffix type used for displaying high numeric values
 		    Available: SI, SCI, GER, ENG [default: SI]
 		*/
 		"suffix": "SI",
-		/*  Enable custom health bar
+		/*  Draw shadows for all rendered texts
 		    Available: true, false [default: true]
 		*/
-		"enableHealthBar": true,
-		/*  Frostbite heart display style (full = vanilla)
-		    Available: FULL, ICON, OVERLAY [default: ICON]
-		*/
-		"frostbiteStyle": "ICON",
+		"textShadow": true,
 		/*  Show absorption as border around health
 		    Available: true, false [default: true]
 		*/
 		"showAbsorption": true,
-		/*  Show frostbite percentage next to health bar
+		/*  Enable custom health bar
 		    Available: true, false [default: true]
 		*/
-		"showFrostbitePercentage": true,
+		"enableHealthBar": true,
+		/*  Enable custom armor bar
+		    Available: true, false [default: true]
+		*/
+		"enableArmorBar": true,
 		/*  Show armor bar when armor is zero
 		    Available: true, false [default: false]
 		*/
 		"showArmorWhenZero": false,
-		/*  Show toughness value text next to toughness bar
+		/*  Show frostbite percentage next to health bar
 		    Available: true, false [default: true]
 		*/
-		"showToughnessValue": true,
+		"showFrostbitePercentage": true,
 		/*  Show health value text next to health bar
 		    Available: true, false [default: true]
 		*/
@@ -105,99 +105,99 @@
 		    Available: 0x000000 ~ 0xffffff [default: ffc300]
 		*/
 		"absorption": "0xffc300",
-		/*  Color when poisoned
-		    Available: 0x000000 ~ 0xffffff [default: 947818]
-		*/
-		"heartPoison": "0x947818",
-		/*  Color when armor > 25
-		    Available: 0x000000 ~ 0xffffff [default: ff3311]
-		*/
-		"armorGT25": "0xff3311",
-		/*  Color when armor = 25
-		    Available: 0x000000 ~ 0xffffff [default: ff8811]
-		*/
-		"armorEQ25": "0xff8811",
-		/*  Color when resistance > 5
-		    Available: 0x000000 ~ 0xffffff [default: 8a0f0f]
-		*/
-		"resistanceFull": "0x8a0f0f",
 		/*  Color of separator
 		    Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
 		*/
 		"separator": "0x3d3d3d",
-		/*  Color of toughness
-		    Available: 0x000000 ~ 0xffffff [default: ff8811]
-		*/
-		"toughness": "0xff8811",
 		/*  Color when armor < 25
 		    Available: 0x000000 ~ 0xffffff [default: 44ff11]
 		*/
 		"armorLT25": "0x44ff11",
-		/*  Color when fully frozen
-		    Available: 0x000000 ~ 0xffffff [default: 01bef2]
+		/*  Color of toughness
+		    Available: 0x000000 ~ 0xffffff [default: ff8811]
 		*/
-		"heartFrostbite": "0x01bef2",
+		"toughness": "0xff8811",
 		/*  Color when withered
 		    Available: 0x000000 ~ 0xffffff [default: 2b2b2b]
 		*/
 		"heartWither": "0x2b2b2b",
+		/*  Color when poisoned
+		    Available: 0x000000 ~ 0xffffff [default: 947818]
+		*/
+		"heartPoison": "0x947818",
 		/*  Color normal status
 		    Available: 0x000000 ~ 0xffffff [default: ff1313]
 		*/
 		"heart": "0xff1313",
+		/*  Color when armor > 25
+		    Available: 0x000000 ~ 0xffffff [default: ff3311]
+		*/
+		"armorGT25": "0xff3311",
+		/*  Color when fully frozen
+		    Available: 0x000000 ~ 0xffffff [default: 01bef2]
+		*/
+		"heartFrostbite": "0x01bef2",
+		/*  Color when resistance > 5
+		    Available: 0x000000 ~ 0xffffff [default: 8a0f0f]
+		*/
+		"resistanceFull": "0x8a0f0f",
 		/*  Color when armor = 0
 		    Available: 0x000000 ~ 0xffffff [default: 3d3d3d]
 		*/
-		"armor0": "0x3d3d3d"
+		"armor0": "0x3d3d3d",
+		/*  Color when armor = 25
+		    Available: 0x000000 ~ 0xffffff [default: ff8811]
+		*/
+		"armorEQ25": "0xff8811"
 	},
 	"textconfig": {
-		/*  if enabled, custom alignment of the health value text
-		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
-		*/
-		"healthValueAlignment": "RIGHT",
-		/*  if enabled, custom X position of the toughness value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"toughnessValueX": 0,
-		/*  if enabled, custom X position of the armor value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"armorValueX": 0,
-		/*  if enabled, custom X position of the health value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"healthValueX": 0,
-		/*  if enabled, custom Y position of the health value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"healthValueY": 0,
-		/*  if enabled, custom Y position of the toughness value text
-		    Available: 0 ~ 32768 [default: 0]
-		*/
-		"toughnessValueY": 0,
-		/*  if enabled, custom alignment of the armor value text
-		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
-		*/
-		"armorValueAlignment": "RIGHT",
 		/*  Enables custom armor value configuration
 		    Available: true, false [default: false]
 		*/
 		"enableArmorValueConfig": false,
-		/*  Enables custom toughness value configuration
+		/*  Enables custom health value configuration
 		    Available: true, false [default: false]
 		*/
-		"enableToughnessValueConfig": false,
+		"enableHealthValueConfig": false,
 		/*  if enabled, custom Y position of the armor value text
 		    Available: 0 ~ 32768 [default: 0]
 		*/
 		"armorValueY": 0,
+		/*  Enables custom toughness value configuration
+		    Available: true, false [default: false]
+		*/
+		"enableToughnessValueConfig": false,
+		/*  if enabled, custom X position of the armor value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"armorValueX": 0,
+		/*  if enabled, custom alignment of the armor value text
+		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
+		*/
+		"armorValueAlignment": "RIGHT",
+		/*  if enabled, custom alignment of the health value text
+		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
+		*/
+		"healthValueAlignment": "RIGHT",
+		/*  if enabled, custom Y position of the health value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"healthValueY": 0,
+		/*  if enabled, custom X position of the health value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"healthValueX": 0,
+		/*  if enabled, custom X position of the toughness value text
+		    Available: 0 ~ 32768 [default: 0]
+		*/
+		"toughnessValueX": 0,
 		/*  if enabled, custom alignment of the toughness value text
 		    Available: LEFT, CENTER, RIGHT [default: RIGHT]
 		*/
 		"toughnessValueAlignment": "RIGHT",
-		/*  Enables custom health value configuration
-		    Available: true, false [default: false]
+		/*  if enabled, custom Y position of the toughness value text
+		    Available: 0 ~ 32768 [default: 0]
 		*/
-		"enableHealthValueConfig": false
+		"toughnessValueY": 0
 	}
 }
