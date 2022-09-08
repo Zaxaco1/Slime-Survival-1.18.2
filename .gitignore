@@ -11,6 +11,25 @@
 
 
 !/defaultconfigs
+
+
+
+
+
+
+!/global_packs
+
+/global_packs/required_data/temp
+/global_packs/required_data/*.zip
+
+/global_packs/required_resources/temp
+/global_packs/required_resources/*.zip
+
+
+
+
+
+
 !/documentation
 !/mods
 !/profileImage
