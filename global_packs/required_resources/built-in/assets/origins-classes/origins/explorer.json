@@ -1,0 +1,9 @@
+{
+	"replace": true,
+	"powers": [
+		"origins-classes:no_jump_exhaustion"
+	],
+	"icon": "minecraft:compass",
+	"order": 9,
+	"impact": 0
+}
