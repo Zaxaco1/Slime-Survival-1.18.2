@@ -1,5 +1,4 @@
 #priority 1
-#loader tags
 
 import crafttweaker.api.resource.ResourceLocation;
 

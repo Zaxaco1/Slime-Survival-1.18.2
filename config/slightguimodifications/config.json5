@@ -1,21 +1,21 @@
 {
-	"fluidAdvancements": false,
-	"fluidStatusEffects": false,
+	"fluidAdvancements": true,
+	"fluidStatusEffects": true,
 	// Whether we should unlimit the hard 60 fps limit placed on the title screen.
-	"unlimitTitleScreenFps": false,
+	"unlimitTitleScreenFps": true,
 	"openingAnimation": {
-		"fluidChatOpening": false,
-		"fluidOpenSlideFromBottom": false,
-		"fluidOpenFade": false,
+		"fluidChatOpening": true,
+		"fluidOpenSlideFromBottom": true,
+		"fluidOpenFade": true,
 		"fluidAnimationDuration": 400,
 		"affectsGameMenus": true,
-		"affectsInventories": true,
+		"affectsInventories": false,
 		"ignoreSlideWhenRedirected": true,
 		"ignoreFadeWhenRedirected": false
 	},
 	"textFieldModifications": {
 		// Whether this module is enabled.
-		"enabled": false,
+		"enabled": true,
 		/* Set to Color to use the Border and Background Color.
 		   Set to Texture to use resource pack:
 		   /assets/minecraft/textures/gui/text_field.png
@@ -31,7 +31,7 @@
 	},
 	"sliderModifications": {
 		// Whether this module is enabled.
-		"enabled": false,
+		"enabled": true,
 		"grabberWidth": 8,
 		/* Whether to use custom texture:
 		   /assets/slightguimodifications/textures/gui/slider(_hovered).png
@@ -49,17 +49,17 @@
 	},
 	"slotHighlight": {
 		// Whether this module is enabled.
-		"enabled": false,
+		"enabled": true,
 		"color": -2130706433
 	},
 	"tooltipModifications": {
 		// Whether this module is enabled.
-		"enabled": false,
+		"enabled": true,
 		"backgroundColor": -267386864,
 		"outlineGradientTopColor": 1347420415,
 		"outlineGradientBottomColor": 1344798847
 	},
 	// Whether GUI should allow right click actions.
-	"rightClickActions": false,
-	"satisfyingScreenshots": false
+	"rightClickActions": true,
+	"satisfyingScreenshots": true
 }

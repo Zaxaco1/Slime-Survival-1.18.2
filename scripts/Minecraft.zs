@@ -2,6 +2,15 @@
 
 
 
+
+<recipetype:minecraft:crafting>.removeByName("minecraft:turtle_helmet");
+<recipetype:minecraft:crafting>.removeByName("minecraft:end_crystal");
+
+
+
+
+
+
 stoneCutter.addRecipe("cobblestone_from_stone_stonecutting", <item:minecraft:cobblestone>, <item:minecraft:stone>);
 stoneCutter.addRecipe("cobbled_deepslate_from_deepslate_stonecutting", <item:minecraft:cobbled_deepslate>, <item:minecraft:deepslate>);
 
@@ -9,11 +18,15 @@ stoneCutter.addRecipe("cobbled_deepslate_from_deepslate_stonecutting", <item:min
 
 
 
-furnace.removeRecipe(<item:minecraft:iron_ingot>, <item:minecraft:raw_iron>);
+//// furnace.removeRecipe(<item:minecraft:iron_ingot>, <item:minecraft:raw_iron>);
+
+campfire.addRecipe("rotten_pile_to_leather", <item:minecraft:leather>, <item:croptosis:rotten_pile>, 0.5, 600);
 
 
 
-recipes.remove(<item:minecraft:end_crystal>);
+
+
+
 
 craftingTable.addShaped("end_crystal", <item:minecraft:end_crystal> * 2, [
 	[<item:minecraft:glass>, <item:minecraft:ghast_tear>, <item:minecraft:glass>],

@@ -560,6 +560,9 @@ mode = "fancy"
 				enderian_pearl = true
 
 			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				stationary_contraption = true
+				super_glue = true
 				potato_projectile = true
 
 			[light_sources.settings.entities.artifacts]

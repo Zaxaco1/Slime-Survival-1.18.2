@@ -1,0 +1,9 @@
+{
+  "key.backslot.switch_beltslot": {
+    "keyCode": 89,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  }
+}
