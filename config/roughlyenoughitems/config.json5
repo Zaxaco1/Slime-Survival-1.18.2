@@ -113,7 +113,7 @@
 			"asyncSearch": true,
 			// Declares how many entries should be grouped one async search.
 			"asyncSearchPartitionSize": 100,
-			"tooltipSearch": "ALWAYS",
+			"tooltipSearch": "PREFIX",
 			"tagSearch": "PREFIX",
 			"identifierSearch": "ALWAYS",
 			"modSearch": "PREFIX"
@@ -146,7 +146,7 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"showCraftableOnlyButton": true
+			"showCraftableOnlyButton": false
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",

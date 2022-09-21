@@ -1,7 +1,7 @@
 {
   "meta": {
     "comment": "IMPORTANT! Make sure to set `override_with_default` to `false` to allow customization of the config",
-    "override_with_default": true,
+    "override_with_default": false,
     "sanitize_config": true
   },
   "dimensions": [

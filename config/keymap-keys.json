@@ -5,5 +5,19 @@
     "alt": true,
     "shift": false,
     "ctrl": false
+  },
+  "Toggle perspective": {
+    "keyCode": 81,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "keybinds.bettercombat.feint": {
+    "keyCode": 82,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
   }
 }

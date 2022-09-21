@@ -9,7 +9,7 @@
     "blacklist": []
   },
   "entityInventory": {
-    "enabled": true,
+    "enabled": false,
     "itemCount": true,
     "nbt": false,
     "maxWidth": 9,

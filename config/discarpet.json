@@ -1,0 +1,11 @@
+{
+  "bots": [
+    {
+      "bot_id": "Your bot ID",
+      "bot_token": "Your bot token",
+      "member_intent": false,
+      "presence_intent": false
+    }
+  ],
+  "disable_reconnect_logs": false
+}

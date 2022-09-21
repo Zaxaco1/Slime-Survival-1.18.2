@@ -4,13 +4,13 @@
     "__comment": [
       "Range: > 0"
     ],
-    "input": 5
+    "input": 0
   },
   "Gui Y": {
     "__comment": [
       "Range: > 0"
     ],
-    "input": 5
+    "input": 0
   },
   "Difficulty color": {
     "__comment": [
@@ -35,6 +35,6 @@
     "__comment": [
       "Relative location of the difficulty text in regards to the screen."
     ],
-    "input": "TOPLEFT"
+    "input": "BOTTOMRIGHT"
   }
 }

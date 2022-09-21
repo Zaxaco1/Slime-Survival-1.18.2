@@ -9,7 +9,7 @@ mode = "fancy"
 	# Enable block entities light source.
 	block_entities = true
 	# Enable entities light source.
-	entities = true
+	entities = false
 	# TNT lighting mode. May be off, simple or fancy.
 	tnt = "off"
 	# Creeper lighting mode. May be off, simple or fancy.
@@ -135,6 +135,101 @@ mode = "fancy"
 				hirschgeist_skull = true
 				hand_of_fate = true
 				ghost_light_tile = true
+
+			[light_sources.settings.block_entities.create]
+				pulse_repeater = true
+				mechanical_bearing = true
+				schematicannon = true
+				depot = true
+				clockwork_bearing = true
+				funnel = true
+				chute = true
+				hand_crank = true
+				sliding_door = true
+				simple_kinetic = true
+				fluid_pipe = true
+				rope_pulley = true
+				encased_cogwheel = true
+				harvester = true
+				mechanical_crafter = true
+				display_link = true
+				lectern_controller = true
+				cursed_bell = true
+				encased_shaft = true
+				hose_pulley = true
+				item_drain = true
+				rotation_speed_controller = true
+				belt = true
+				creative_crate = true
+				basin = true
+				chassis = true
+				encased_fluid_pipe = true
+				fluid_valve = true
+				brass_tunnel = true
+				steam_engine = true
+				gantry_pinion = true
+				fluid_tank = true
+				schematic_table = true
+				portable_fluid_interface = true
+				analog_lever = true
+				clutch = true
+				windmill_bearing = true
+				toolbox = true
+				fake_track = true
+				cuckoo_clock = true
+				speedometer = true
+				track_observer = true
+				millstone = true
+				creative_fluid_tank = true
+				peculiar_bell = true
+				motor = true
+				pulse_extender = true
+				flap_display = true
+				turntable = true
+				gantry_shaft = true
+				sequenced_gearshift = true
+				crushing_wheel = true
+				mechanical_arm = true
+				item_vault = true
+				blaze_heater = true
+				weighted_ejector = true
+				spout = true
+				flywheel = true
+				adjustable_pulley = true
+				content_observer = true
+				gearbox = true
+				deployer = true
+				powered_shaft = true
+				track = true
+				stockpile_switch = true
+				andesite_tunnel = true
+				track_station = true
+				stressometer = true
+				smart_chute = true
+				sticker = true
+				saw = true
+				copper_backtank = true
+				encased_large_cogwheel = true
+				nixie_tube = true
+				drill = true
+				mechanical_pump = true
+				mechanical_mixer = true
+				water_wheel = true
+				nozzle = true
+				cart_assembler = true
+				steam_whistle = true
+				mechanical_piston = true
+				mechanical_press = true
+				bogey = true
+				track_signal = true
+				encased_fan = true
+				glass_fluid_pipe = true
+				smart_fluid_pipe = true
+				gearshift = true
+				portable_storage_interface = true
+				crushing_wheel_controller = true
+				redstone_link = true
+				placard = true
 
 			[light_sources.settings.block_entities.waystones]
 				waystone = true
@@ -561,8 +656,12 @@ mode = "fancy"
 
 			[light_sources.settings.entities.create]
 				carriage_contraption = true
+				seat = true
 				stationary_contraption = true
+				contraption = true
+				gantry_contraption = true
 				super_glue = true
+				crafting_blueprint = true
 				potato_projectile = true
 
 			[light_sources.settings.entities.artifacts]
